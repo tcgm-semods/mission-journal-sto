@@ -18,6 +18,9 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Install packaging tools from tcgm/StarEmpireMM
+        run: pip install git+https://github.com/tcgm/StarEmpireMM.git
+
       - name: Build .semod package
         run: python packaging/build.py
 

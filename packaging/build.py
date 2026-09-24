@@ -1,14 +1,16 @@
-"""Build this mod's .semod package for CI (invoked by .github/workflows/release.yml)."""
+"""Build this mod's .semod package for CI (invoked by .github/workflows/release.yml).
+
+Requires installer/tools from tcgm/StarEmpireMM, installed via:
+    pip install git+https://github.com/tcgm/StarEmpireMM.git
+"""
 from __future__ import annotations
 
-import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+from installer.mod_manifest import parse_mod_manifest
+from tools.build_semod_package import build_semod_package
 
-from installer.mod_manifest import parse_mod_manifest  # noqa: E402
-from tools.build_semod_package import build_semod_package  # noqa: E402
+ROOT = Path(__file__).resolve().parent.parent
 
 
 def main() -> None:
