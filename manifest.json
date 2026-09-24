@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "format": "star-empire-mod",
+    "mod_id": "mission-journal-sto",
+    "name": "Mission Journal (STO-Style)",
+    "version": "0.1.0",
+    "author": "wkthedev",
+    "description": "Replaces the Mission Log window with an STO-style Mission Journal: a category sidebar, a persistent detail pane (no more popup for your own missions), and a trackable-mission HUD objective tracker.",
+    "loader_api": 2,
+    "entrypoint": "mission_journal_sto.main:apply",
+    "files": [
+        "mod/mission_journal_sto/README.md",
+        "mod/mission_journal_sto/main.py"
+    ],
+    "dependencies": [],
+    "conflicts": [],
+    "load_after": [],
+    "permissions": []
+}
