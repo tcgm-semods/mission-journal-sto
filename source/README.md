@@ -14,8 +14,6 @@ with a layout closer to Star Trek Online's mission journal:
   current objective at all times, even with the journal closed. Click the
   widget's &times; to untrack. Tracked mission persists across sessions.
 
-The Ongoing/Completed switch, the search box, and the close button all still
-work exactly as before &mdash; only the layout and the "click a mission to
-see it" flow changed. Station-offered mission Accept/Refuse and the
-mission-complete story popup are unaffected; this mod only touches the
-Mission Log window itself.
+The Ongoing/Completed switch, search box, and close button all still work
+as before &mdash; only the layout changed. Station-offered mission
+Accept/Refuse and the mission-complete story popup are untouched.
